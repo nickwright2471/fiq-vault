@@ -1,0 +1,670 @@
+/*nicks styles*/
+h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+}
+body{
+	/*background: url('../img/banner-everfi-entry.jpg') no-repeat;*/
+	background: #207cca; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #207cca 0%, #0941a7 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #207cca 0%,#0941a7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #207cca 0%,#0941a7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#0941a7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-size:cover;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+}
+ol{
+	text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+ol li{
+	padding-left: 10px;
+}
+#powered-by{
+	height: 32px;
+    padding-top: 32px;
+    padding-left: 25px;
+}
+.display-none{
+	display: none;
+}
+.text-center{
+	text-align: center;
+}
+.height-container{
+	height: -webkit-calc(100vh - 74px); /* google, safari */
+	height: -moz-calc(100vh - 74px); /* firefox */
+	height: calc(100vh - 74px); /* firefox */
+}
+.header{
+	border-bottom: 1px solid #ddd;
+	background-color: #ffffff;
+	height: 74px;
+}
+.header img{
+	float: left;
+    height: 58px;
+    padding: 8px 0px 0px 15px;
+}
+.header h1{
+	text-align:right;
+	color: #4f5859;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 23px 15px 23px 0px;
+    margin: 0px;
+    float: right;
+    display: block;
+}
+#options h2{
+	font-size: 24px;
+    font-weight: 400;
+}
+#options p {
+    margin: 10px 0px 10px 0px;
+    color: #969696;
+    font-size:12px;
+}
+#options ul{
+	padding-left: 26px;
+}
+#options ul li{
+	    color: #5f5f5f;
+	        font-size: 16px;
+    line-height: 23px;
+}
+#options {
+    background-color: #fff;
+    max-width: 500px;
+    padding: 25px 25px;
+    margin: auto;
+    margin-top: 7%;
+    border: 1px solid #CCCCCC;
+}
+#options select {
+    width: 100px;
+    border: 1px solid #989898;
+    background: #fff;
+    height: 30px;
+}
+#options .submit {
+    width: 100px;
+    border: 1px solid #949494;
+    border-radius: 6px;
+    background: #fff;
+    padding: 10px 15px;
+    color: #1969bf;
+    font-size: 15px;
+    transition: color 0.3s ease;
+    transition: background 0.3s ease;
+}
+#options .submit:hover {
+    border: 1px solid #1969bf;
+    color: #fff;
+    background: #1969bf;
+    cursor: pointer;
+}
+
+#prompt{
+	padding-top: 5%;
+}
+#prompt p{
+	margin: 45px 0px;
+}
+h2#answer{
+	font-size: 55px !important;
+    text-shadow: 1px 1px 1px #383838;
+	text-align: left;
+}
+
+
+label {
+	display:block;
+	font-size:16px;
+}
+input, textarea, select {
+	display:block;
+	margin:auto;
+}
+#mainPanel input, textarea, select {
+	display:block;
+	width: 63%;
+    height: 32px;
+    margin: 0px;
+    font-size: 12px;
+}
+#removeHeader{
+	    display: inline;
+    margin: 0px;
+    font-size: 12px;
+    width: 14px;
+    height: auto;
+    margin-top: 0px;
+}
+#headerOption{
+	    margin: 27px 0px 10px 0px;
+    color: #969696;
+    font-size: 12px;
+    text-align: center;
+}
+
+textarea {
+	padding:5px;	
+}
+.clear {
+	clear:both;	
+}
+.hide {
+	display:none;	
+}
+
+.edit {
+	border:2px dashed #cccccc;
+	text-align:center;
+}
+
+.edit:hover, textarea.active {
+	border:2px inset gray;	
+}
+
+
+#title {
+	text-align:center;
+	font-size:36px;
+	margin:auto;
+	line-height:36px;
+}
+
+textarea#title {
+	height:50px;
+	width:90%;
+	color:#012b45;
+}
+
+#game {
+	width:100%;
+	background:none;
+	padding:0;
+	margin:0;
+	margin:auto;
+	font-size:16px;
+	height: 82%;
+}
+
+#game textarea {
+	width:90%;
+	height:30px;
+	font-size:18px;
+	line-height:22px;
+}
+
+#game h3 {
+	color:#f5af61;
+	text-align:center;
+	font-size:45px;
+	font-weight:700;
+	margin:0;
+	text-shadow: 1px 1px 1px #3c3c3c;
+}
+
+#game tbody td, #game thead th {
+	vertical-align: middle;
+    background-color: #0941a7;
+    border: 3px solid #161e61;
+    padding: 0px 5px;
+    text-align: center;
+    width: 19%;
+    color: #e4dbd1;
+    height: 60px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#game tbody td {
+	cursor:pointer;
+	height:92px;
+	box-sizing: border-box;
+	border: 3px solid #161e61;
+    background: rgb(42,54,152);
+    background: -moz-linear-gradient(top, rgba(42,54,152,1) 0%, rgba(14,124,214,1) 50%, rgba(29,96,229,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(42,54,152,1) 0%,rgba(14,124,214,1) 50%,rgba(29,96,229,1) 100%);
+    background: linear-gradient(to bottom, rgba(42,54,152,1) 0%,rgba(14,124,214,1) 50%,rgba(29,96,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a3698', endColorstr='#1d60e5',GradientType=0 );
+	}
+
+#enterLink {
+	color: #006899;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#enterLink:hover {
+color: #328FC2;
+}
+#game tbody td.ie-hack {
+	border:3px solid #ffff5f;
+}
+
+#game tbody td.clean:hover {
+	border:3px solid #ffff5f;
+}
+
+#game tbody td.dirty:hover {
+	border:3px solid #161e61;
+}
+
+#game tbody td.dirty h3 {
+	color:#335a86;	
+}
+#game tbody td.dirty {
+	background-color:#e5e5e5;	
+}
+
+#game tfoot td {
+	text-align: center;
+	background-color:#2a3698;
+}
+
+.submit {
+	margin:auto;
+}
+
+#modal {
+	display: none;
+	background-color:#fff;
+	padding:5px;
+	border:2px dashed #ccc;
+}
+
+#modal {
+	font-size:16px;
+	font-weight:bold;
+}
+
+#modal textarea {
+	width:500px;
+	height:120px;
+	font-size:16px;
+}
+
+
+#options hr{
+	border-top: 1px solid #d6d6d6;
+	margin: 20px;
+}
+#options h1 {
+	color:#2a3698;
+	font-size:22px;
+	text-align:center;
+}
+
+#options label {
+    text-align: center;
+    font-size: 14px;
+    color: #969696;
+    margin-bottom: 5px;
+}
+
+#options select {
+	width:130px;	
+	margin: 0 auto;
+}
+
+#options p {
+	margin-bottom:0px;	
+}
+
+.tip {
+	float:left;
+}
+
+.links {
+	float:right;
+}
+
+
+#stats {
+	position:fixed;
+	bottom:0;
+	background-color:#ffffff;
+	border-top: 1px solid #ddd;
+	width:100%;
+	text-align:center;
+	display:none;
+	left:0;
+	height: 15%;
+}
+
+#stats h3 {
+	margin:0;
+	margin-top: -10px;
+	margin-bottom: 7px;
+	padding:0;	
+	font-size: 24px;
+}
+
+#stats input.team-name {
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: #656a6b;
+}
+
+#stats table {
+	margin:auto;
+}
+
+/*#stats table th {
+	border-bottom:1px solid black;
+}*/
+
+input.add-points {
+    color: #696969;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0px;
+    background-color: #FFFFFF;
+    border: none;
+    display: inline;
+    border: 1px solid #bdbdbd;
+    padding: 0px 7px 1px 7px;
+}
+
+input.subtract-points {
+	color: #696969;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0px;
+    background-color: #FFFFFF;
+    border: none;
+    display: inline;
+    border: 1px solid #bdbdbd;
+    padding: 0px 9px 1px 9px;
+}
+
+#prompt {
+	display:none;
+	height:100%;
+	width:100%;
+	background: url('../customize/bg-2.jpg');
+	background-position: 45%;
+	background-attachment: fixed;
+	background-size: cover;
+	color:#ffffff;
+	text-align:center;
+}
+
+#prompt a:link, #prompt a:visited {
+	color:#006899;
+	background: #D1E0E9;
+	font-size:18px;
+	text-decoration:underline;
+}
+
+#prompt a:hover {
+	text-decoration:none;
+}
+
+#simplemodal-overlay {
+	background-color:#000;
+}
+
+#answer {
+    padding-left:5%;
+    padding-right:5%;
+}
+
+#question {
+    padding-left:5%;
+    padding-right:5%;
+    font-size: 40px !important;
+    text-shadow: 1px 1px 1px #383838;
+}
+#prompt a:link, #prompt a:visited{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 17px;
+    border: 1px solid #98baca;
+}
+#prompt a:hover{
+	background: #cadae4;
+}
+#prompt #back-to-board a{
+	   color: #006899;
+	   border:1px solid #98baca;
+	   background:#D1E0E9;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+}
+#prompt #back-to-board a:hover{
+    background: #cadae4;
+}
+
+#copyright{
+	text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    max-width: 600px;
+    margin: 0px auto 50px auto;
+}
+#copyright img{
+	    height: 60px;
+    margin-top: 20px;
+}
+#back-to-board{
+	position: absolute;
+	top: 85px;
+}
+#continue{
+	display: none;
+}
+.underline{
+	text-decoration:underline;
+}
+.container-alex{
+	overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 262px;
+    height: 201px;
+}
+.img-alex{
+	right: 0;
+    bottom: -200px;
+    position: absolute;
+/*    animation-name: creep;
+    animation-duration:5.5s;*/
+}
+
+-webkit-@keyframes creep{
+	0%{
+		bottom:-200px;
+	}
+	25%{
+		bottom:0px;
+	}
+	50%{
+		bottom:0px;
+	}
+	75%{
+		bottom:0px;
+	}
+	99%{
+		bottom:-200px;
+	}
+	100%{
+		bottom: -200px;
+	}
+}
+-moz-@keyframes creep{
+	0%{
+		bottom:-200px;
+	}
+	25%{
+		bottom:0px;
+	}
+	50%{
+		bottom:0px;
+	}
+	75%{
+		bottom:0px;
+	}
+	99%{
+		bottom:-200px;
+	}
+	100%{
+		bottom: -200px;
+	}
+}
+@keyframes creep{
+	0%{
+		bottom:-200px;
+	}
+	25%{
+		bottom:0px;
+	}
+	50%{
+		bottom:0px;
+	}
+	75%{
+		bottom:0px;
+	}
+	99%{
+		bottom:-200px;
+	}
+	100%{
+		bottom: -200px;
+	}
+}
+
+#play{
+	display: none;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 15px 15px;
+}
+#play:hover{
+	cursor:pointer;
+	opacity:.8;
+}
+
+#save{
+	display: none;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 15px 15px;
+}
+#save:hover{
+	cursor:pointer;
+	opacity:.8;
+}
+
+@media screen and (max-width:767px){
+	.optional{
+		display: none;
+	}
+	#prompt ol{
+		font-size: 19px;
+	}
+	#answer{
+		margin-top: 30px;
+	}
+	h2#answer{
+		font-size: 23px !important;
+	}
+	#question{
+		font-size:30px !important;
+	}
+	.header img {
+    float: left;
+    height: 28px;
+    padding: 36px 0px 0px 15px;
+	}
+	#powered-by {
+    height: 19px;
+    padding-top: 45px;
+	}
+	.header h1{
+		font-size: 16px;
+    padding: 50px 15px 23px 0px;
+	}
+}
+
+@media screen and (max-height:763px){
+	#game tbody td{
+		height:70px;
+	}
+}
+
+@media screen and (max-width:560px){
+	#game tbody td, #game thead th{
+		font-size:11px;
+	}
+	#game tbody td{
+		height:55px;
+	}
+	#game h3{
+		font-size: 21px;
+	}
+	#stats input.team-name{
+		font-size:12px;
+	}
+	#stats h3{
+		font-size: 14px;
+		margin-top:-6px;
+	}
+	/*.header h1{
+		font-size: 19px;
+		padding: 28px 15px 23px 0px;
+	}*/
+	/*.header{
+		height: 64px;
+	}*/
+	/*.header img{
+		height: 26px;
+	}*/
+
+}
+
+@media screen and (max-width:560px){
+	.header img{
+		height:21px;
+		padding: 43px 0px 0px 15px;
+	}
+	.header h1 {
+    font-size: 12px;
+    padding: 54px 15px 23px 0px;
+}
+}
+
+@media screen and (max-width:998px){
+  #prompt{
+  	padding-top:8%;
+  }
+}
+
+@media (min-width:1500px){
+	ol{
+        font-size: 50px;
+	}
+	h2#answer {
+    font-size: 65px !important;
+    text-shadow: 2px 2px 1px #383838;
+    }
+}
+
+
+
+
+
+
